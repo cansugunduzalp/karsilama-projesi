@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Karşılama Ekranı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="girisEkrani">
+    <h2>Lütfen isminizi giriniz:</h2>
+    <input type="text" id="isimInput" placeholder="İsminiz">
+    <button onclick="girisYap()">Giriş Yap</button>
+  </div>
+
+  <div id="karsilamaEkrani" style="display:none;">
+    <h1 id="hosgeldinMesaji"></h1>
+    <p id="saat"></p>
+    <p id="gun"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
